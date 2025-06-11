@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 500px;
+  margin: auto;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.input-section {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.input-section input, .input-section button {
+  padding: 10px;
+  border: 1px solid white;
+  border-radius: 20px;
+  font-size: 16px;
+  width:430;
+}
+
+.input-section button {
+  background-color: rgb(99, 96, 99);
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.input-section button:hover {
+  background-color: black;
+}
+
+.expenses-list {
+  margin-top: 20px;
+}
+
+.total {
+  margin-top: 20px;
+  font-weight: bold;
+  text-align: right;
+  font-size: 20px;
+  color: rgb(66, 64, 64);
+}
